@@ -1,8 +1,12 @@
 {
   description = "stskeygen for cimpress aws";
-  inputs = { flake-utils.url = "github:numtide/flake-utils"; };
+  inputs = {
+    flake-utils.url = "github:numtide/flake-utils";
+    terraform_0_13-nixpkgs.url = "github:NixOS/nixpkgs/c92ca95afb5043bc6faa0d526460584eccff2277";
+    terraform_0_14-nixpkgs.url = "github:NixOS/nixpkgs/bf972dc380f36a3bf83db052380e55f0eaa7dcb6";
+  };
 
-  outputs = { self, nixpkgs, flake-utils }:
+  outputs = { self, nixpkgs, flake-utils, terraform_0_13-nixpkgs, terraform_0_14-nixpkgs }:
     flake-utils.lib.eachDefaultSystem (system: {
       formatter = nixpkgs.legacyPackages.${system}.nixpkgs-fmt;
       packages.stskeygen = let
@@ -54,5 +58,7 @@
           description = "stskeygen for cimpress aws";
         };
       };
+      packages.terraform_0_13 = terraform_0_13-nixpkgs.legacyPackages.${system}.terraform_0_13;
+      packages.terraform_0_14 = terraform_0_14-nixpkgs.legacyPackages.${system}.terraform_0_14;
     });
 }
