@@ -1,8 +1,16 @@
 #!/usr/bin/env sh
 
-version=$1
-for system in "Linux_x86_64" "Linux_i386" "Linux_arm64" "Darwin_x86_64" "Darwin_arm64"
+html=$(mktemp)
+curl 'https://ce-installation-binaries.s3.amazonaws.com/stskeygen/index.html' > "$html"
+stskeygen_json='stskeygen.json'
+json_content=$(cat $stskeygen_json)
+for system in $(jq -r "keys[]" $stskeygen_json)
 do
-    hash=$(nix-prefetch-url --type sha256 "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/$version/stskeygen_${version}_$system.tar.gz")
-    sed -i "s/\($system.*sha256 = \"\)\(.*\)\";/\1$hash\";/" flake.nix
+    url=$(grep -o 'href="[^"]*stskeygen[^"]*gz' < "$html" | sed 's/href="//' | grep "$system"  )
+    json_content=$(echo "$json_content" | jq ".$system.url=\"$url\"")
+    hash=$(nix-prefetch-url --type sha256 "$url")
+    json_content=$(echo "$json_content" | jq ".$system.sha256=\"$hash\"")
+    version=$(echo "$url" | grep -o 'stskeygen/[^/]*/' | sed 's/stskeygen\///' | sed 's/\/$//' )
+    json_content=$(echo "$json_content" | jq ".$system.version=\"$version\"")
 done
+echo "$json_content" > $stskeygen_json
