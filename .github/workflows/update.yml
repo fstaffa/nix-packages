@@ -24,7 +24,7 @@ jobs:
 
       - name: Update inputs
         run: |
-          ./update
+          sh update.sh
 
       - name: Push commit with updated inputs
         run: |
