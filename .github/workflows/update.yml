@@ -1,14 +1,13 @@
 name: Update stskeygen
 on:
   schedule:
-    - cron: "0 */8 * * *"
+    - cron: "0 */8 * * 1"
   workflow_dispatch:
 
 jobs:
   refresh-overlay:
     name: Refresh inputs
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'nix-community'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2.3.4
@@ -25,9 +24,9 @@ jobs:
 
       - name: Update inputs
         run: |
-          ./update
+          sh update.sh
 
       - name: Push commit with updated inputs
         run: |
-          git pull --rebase --autostash
+          git diff --quiet || git commit -a -m "updated stskeygen"
           git push
