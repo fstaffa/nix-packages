@@ -22,6 +22,6 @@
   "Darwin_arm64": {
     "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.2.15/stskeygen_2.2.15_Darwin_arm64.tar.gz",
     "sha256": "0y7lr7rq87z44mf3mz3dnz7q3krybin3r2fghf45a82b15xd45w9",
-    "version": "2.2.14"
+    "version": "2.2.15"
   }
 }
