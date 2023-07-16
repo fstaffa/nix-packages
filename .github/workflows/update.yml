@@ -28,5 +28,5 @@ jobs:
 
       - name: Push commit with updated inputs
         run: |
-          git commit -a -m "updated stskeygen"
+          git diff --quiet || git commit -a -m "updated stskeygen"
           git push
