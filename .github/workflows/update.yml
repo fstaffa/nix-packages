@@ -26,6 +26,10 @@ jobs:
         run: |
           sh update.sh
 
+      - name: Test build
+        run: |
+          nix build ".#stskeygen"
+
       - name: Push commit with updated inputs
         run: |
           git diff --quiet || git commit -a -m "updated stskeygen"
