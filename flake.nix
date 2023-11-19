@@ -12,19 +12,19 @@
       packages.stskeygen = let
         mappings = {
           x86_64-linux = {
-            systemAlias = "Linux_x86_64";
+            systemAlias = "linux_amd64";
           };
           i686-linux = {
-            systemAlias = "Linux_i386";
+            systemAlias = "linux_386";
           };
           aarch64-linux = {
-            systemAlias = "Linux_arm64";
+            systemAlias = "linux_arm64";
           };
           x86_64-darwin = {
-            systemAlias = "Darwin_x86_64";
+            systemAlias = "darwin_amd64";
           };
           aarch64-darwin = {
-            systemAlias = "Darwin_arm64";
+            systemAlias = "darwin_arm64";
           };
         };
         urls = builtins.fromJSON (nixpkgs.lib.readFile (./stskeygen.json));

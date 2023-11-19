@@ -1,27 +1,27 @@
 {
-  "Linux_x86_64": {
-    "url": "",
-    "sha256": "",
-    "version": ""
-  },
-  "Linux_i386": {
-    "url": "",
-    "sha256": "",
-    "version": ""
-  },
-  "Linux_arm64": {
-    "url": "",
-    "sha256": "",
-    "version": ""
-  },
-  "Darwin_x86_64": {
-    "url": "",
-    "sha256": "",
-    "version": ""
-  },
-  "Darwin_arm64": {
-    "url": "",
-    "sha256": "",
-    "version": ""
-  }
+    "linux_386": {
+        "url": "",
+        "sha256": "",
+        "version": ""
+    },
+    "linux_arm64": {
+        "url": "",
+        "sha256": "",
+        "version": ""
+    },
+    "linux_amd64": {
+        "url": "",
+        "sha256": "",
+        "version": ""
+    },
+    "darwin_arm64": {
+        "url": "",
+        "sha256": "",
+        "version": ""
+    },
+    "darwin_amd64": {
+        "url": "",
+        "sha256": "",
+        "version": ""
+    }
 }
