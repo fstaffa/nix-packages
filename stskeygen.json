@@ -1,27 +1,27 @@
 {
   "linux_386": {
-    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.3/stskeygen_2.4.3_linux_386.tar.gz",
-    "sha256": "0b6rb43qk2i9s4g53jy3m66qf94szcsll6g2mp4a6mvzbx7y1pvi",
-    "version": "2.4.3"
+    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_linux_386.tar.gz",
+    "sha256": "1i7f6g3yfqi8kisn6iw40dkxvasr2faf099d5qj9fc0nd5xbw6ln",
+    "version": "2.4.5"
   },
   "linux_arm64": {
-    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.3/stskeygen_2.4.3_linux_arm64.tar.gz",
-    "sha256": "0nknrpakqhhjm2lcxnn2ghr487z9711kfwra3n2mhx5mx5r9n9yq",
-    "version": "2.4.3"
+    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_linux_arm64.tar.gz",
+    "sha256": "0bkfh822704agpsznalfb4byjkgdqbf2sk2wg0rs64nl17kh6flj",
+    "version": "2.4.5"
   },
   "linux_amd64": {
-    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.3/stskeygen_2.4.3_linux_amd64.tar.gz",
-    "sha256": "1jjb4i0x2bi9b0m0s3bpcza3n9x01x3qnd579d4kxzl8hczp8aip",
-    "version": "2.4.3"
+    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_linux_amd64.tar.gz",
+    "sha256": "1gibw3krlcyjs78d3g65wy3i7ijb3y93f0rqq9mb9din4nkl18wn",
+    "version": "2.4.5"
   },
   "darwin_arm64": {
-    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.3/stskeygen_2.4.3_darwin_arm64.tar.gz",
-    "sha256": "07jj1czyqwf3hv3k7i7vvnzprm0rn2a6r6l2dmjb82pfklnz9wh4",
-    "version": "2.4.3"
+    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_darwin_arm64.tar.gz",
+    "sha256": "03mw8plkrklqh277w4cq0cg1sny1khvb72gcl62l1w0c1q6aw5gc",
+    "version": "2.4.5"
   },
   "darwin_amd64": {
-    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.3/stskeygen_2.4.3_darwin_amd64.tar.gz",
-    "sha256": "0181gxnhlh7ic16gmxi3z4r547rcddmbdwj60ddazz20829m6bs0",
-    "version": "2.4.3"
+    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_darwin_amd64.tar.gz",
+    "sha256": "110503wml945r2bsx9pxbnq145cppbvawrgmjqm8fjs8x3vkdnim",
+    "version": "2.4.5"
   }
 }
