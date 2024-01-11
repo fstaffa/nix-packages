@@ -1,9 +1,4 @@
 {
-  "linux_386": {
-    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_linux_386.tar.gz",
-    "sha256": "1i7f6g3yfqi8kisn6iw40dkxvasr2faf099d5qj9fc0nd5xbw6ln",
-    "version": "2.4.5"
-  },
   "linux_arm64": {
     "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_linux_arm64.tar.gz",
     "sha256": "0bkfh822704agpsznalfb4byjkgdqbf2sk2wg0rs64nl17kh6flj",
