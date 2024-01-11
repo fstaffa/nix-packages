@@ -1,22 +1,22 @@
 {
   "linux_arm64": {
-    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_linux_arm64.tar.gz",
-    "sha256": "0bkfh822704agpsznalfb4byjkgdqbf2sk2wg0rs64nl17kh6flj",
-    "version": "2.4.5"
+    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.5.2/stskeygen_2.5.2_linux_arm64.tar.gz",
+    "sha256": "0ymgxgk8g6cagaj6my96wd6kf4r9igw0s1mji8mhqj30a173855f",
+    "version": "2.5.2"
   },
   "linux_amd64": {
-    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_linux_amd64.tar.gz",
-    "sha256": "1gibw3krlcyjs78d3g65wy3i7ijb3y93f0rqq9mb9din4nkl18wn",
-    "version": "2.4.5"
+    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.5.2/stskeygen_2.5.2_linux_amd64.tar.gz",
+    "sha256": "02qpxbryfcfl3ypszvhrg6malfag6r8ilswcr8lqdqwhgx8k9wkj",
+    "version": "2.5.2"
   },
   "darwin_arm64": {
-    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_darwin_arm64.tar.gz",
-    "sha256": "03mw8plkrklqh277w4cq0cg1sny1khvb72gcl62l1w0c1q6aw5gc",
-    "version": "2.4.5"
+    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.5.2/stskeygen_2.5.2_darwin_arm64.tar.gz",
+    "sha256": "16wv0i78xpxz5xwrldnxj400a65ahrgjrf838awb28j6a10slarw",
+    "version": "2.5.2"
   },
   "darwin_amd64": {
-    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.4.5/stskeygen_2.4.5_darwin_amd64.tar.gz",
-    "sha256": "110503wml945r2bsx9pxbnq145cppbvawrgmjqm8fjs8x3vkdnim",
-    "version": "2.4.5"
+    "url": "https://ce-installation-binaries.s3.amazonaws.com/stskeygen/2.5.2/stskeygen_2.5.2_darwin_amd64.tar.gz",
+    "sha256": "0vxz3g9hl9pz7wjz0gb0zir5w7m81cbbdzw8z4ssn2lwdhjqv0dn",
+    "version": "2.5.2"
   }
 }
