@@ -1,4 +1,4 @@
-name: Update stskeygen
+name: Periodic check and update of dependencies
 on:
   push:
   schedule:
